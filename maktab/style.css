@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/bigschool.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav .container{
+    width: 100%;
+    align-items: center;
+    background-color:  #0D263B;
+    display: flex;
+    justify-content: space-around;
+}
+.nav__navbar img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.65);
+}
+.container ul{
+    width: 40%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container ul li{
+    list-style: none;
+    color: aliceblue;
+}
+.container ul li a{
+    font-style: italic;
+}
+.container ul li:hover{
+    color: rgb(45, 45, 221);
+    cursor: pointer;
+    transition: 0.2;
+}
+.container ul li:active:hover{
+    color: red;
+}
+.nav__content{
+    text-align: center;
+    margin-top: 200px;
+}
+.nav__content h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.nav__content p{
+    color: #fff;
+    font-size: 16px;
+}
+.nav__content button {
+    width: 200px;
+    height: 34px;
+    margin-top: 20px;
+    outline: none;
+    background-color: #0D263B;
+    border: none;
+    border-radius: 4px;
+}
+.nav__content button:hover{
+    background-color: rgb(44, 44, 155);
+}
+.nav__content button a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
